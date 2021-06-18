@@ -12,7 +12,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <roo.version>1.2.1.RELEASE</roo.version>
         <slf4j.version>1.6.4</slf4j.version>
-        <spring.version>3.1.0.RELEASE</spring.version>
+        <spring.version>3.2.9.RELEASE</spring.version>
     </properties>
     <repositories>
         <repository>
@@ -150,12 +150,12 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>3.6.9.Final</version>
+            <version>4.1.1.Final</version>
         </dependency>
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-entitymanager</artifactId>
-            <version>3.6.9.Final</version>
+            <version>4.1.1.Final</version>
             <exclusions>
                 <exclusion>
                     <groupId>cglib</groupId>
@@ -288,7 +288,7 @@
         <dependency>
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
-            <version>1.5</version>
+            <version>1.13</version>
         </dependency>
     <dependency>
             <groupId>org.apache.tiles</groupId>
